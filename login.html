@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharath Techno Tic | Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="login.js"></script>
+</head>
+<body>
+    <div class="login_div">
+    <h1>Login</h1>
+
+    <form class="form_login">
+        <label>User Email</label>
+        <input type="email" placeholder="Enter your email" id="email" required>
+
+        <button type="button" onclick="sendOTP()">Get OTP</button>
+        <div id="otpSection">
+        <input type="text" placeholder="Enter OTP" id="userOtp" required><br><br>
+
+        <button type="button" onclick="verifyOTP()">Verify OTP</button>
+        </div>
+    </form>
+    <p id="message"></p>
+</div>
+</body>
+</html>
