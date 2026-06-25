@@ -1,0 +1,84 @@
+
+
+body {
+    background-image: url('tech_background.jpg');
+     /* background: linear-gradient(135deg,rgb(102, 205, 159),yellow);
+      min-height: 100vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+     margin: 0;
+    padding: 0 0;
+    width: 100%;
+}
+
+.nav_space{
+    
+    background-color: aliceblue;
+    height: 70px;
+    margin-top: 15px;
+
+    /* to display the content in center and middle of the navbar */
+    display: flex;  
+    /* justify-content: center; */
+    align-items: center; 
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+
+}
+
+.nav_fnt{
+    font-size: 30px;
+    padding-left: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+     /* -webkit-text-stroke: 1.5px #1a1a2e; */
+}
+
+
+
+.inlog{
+    background-color: bisque;
+    height: 55%;
+    width: 25%;
+    position: absolute;
+     top: 50%;
+    left: 47%;
+    transform:translate(-50%,-50%);
+   
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+
+    
+    
+}
+
+.naam{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+
+    margin: 5%;
+    height: 23px;
+    width:80% ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    border-color: black;
+    
+    
+    
+}
+
+.headng{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 17px;
+}
